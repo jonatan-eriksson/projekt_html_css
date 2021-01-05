@@ -1,0 +1,13 @@
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 600;
+  margin: 0 0.7rem;
+}

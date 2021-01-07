@@ -57,4 +57,34 @@ main section {
   transform: rotate(0);
 }
 
+/* index Main */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+
+  height: calc(100vh - 60px);
+  padding: 2rem 0;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.hero-image {
+  flex: 1;
+  overflow: hidden;
+  background-image: url("/images/placeholder-1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.products {
+  text-align: center;
+}
+
+.newsletter {
+  text-align: center;
+}
+
 /* Footer */

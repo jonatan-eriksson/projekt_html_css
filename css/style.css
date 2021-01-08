@@ -2,6 +2,32 @@ main section {
   padding: 70px 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* Utility */
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.grid-col-4 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 992px) {
+  .grid-col-4 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .grid-col-4 {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Navbar */
 .navbar-toggler {
   border: none;
@@ -62,10 +88,9 @@ main section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
 
   height: calc(100vh - 60px);
-  padding: 2rem 0;
+  padding: 0 0 2rem 0;
   margin-top: 60px;
   text-align: center;
 }
@@ -79,12 +104,59 @@ main section {
   background-size: contain;
 }
 
-.products {
-  text-align: center;
+.products .card-img {
+  filter: contrast(70%);
+  transition: filter 0.4s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+}
+
+.products .card-img:hover {
+  filter: contrast(100%);
 }
 
 .newsletter {
+  max-width: 600px;
+  margin: 0 auto;
   text-align: center;
+}
+
+.newsletter .input-group {
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+}
+
+.newsletter .input-group input[type="email"] {
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .newsletter .input-group {
+    flex-direction: row;
+  }
+  .newsletter .input-group input[type="email"] {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+  }
+  .hero-image {
+    order: 1;
+    min-height: 100%;
+  }
+  .hero-content {
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
 }
 
 /* Footer */

@@ -96,8 +96,6 @@ footer {
   font-family: arial, verdana, helvetica, sans-serif;
 }
 
-
-
 .hälsa{
   font-size: 8pt;
 }
@@ -112,4 +110,12 @@ footer {
 }
 .regNr{
   font-size: 8pt;
+}
+.puppyimg img{
+  border: 1px solid rgba(0,0,0,.125);
+}
+.puppyimg { 
+  height: 95%;
+  width: 100%;
+  object-fit: cover;
 }

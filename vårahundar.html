@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="css/vårahundar.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <!--Title-->
     <title>Kalles Kennel - Våra hundar</title>
   </head>
@@ -40,55 +41,69 @@
     <!--Titel-->
     <main>
       <p class="text-center fs-1">Våra Hundar</p>
-           <!--Hundarna-->
-          <div class="container">
-            <div class="card-group">
+        <!--Hundarna-->
+        <div class="container">
+          <div class="card-group">
             <div class="card">
               <img src="images/dvargschnauzer-peppar-salt.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">X-Plotions Jar Of Love</h3>
-                <p class="hälsa">Ögon - UA</p>
+                <h4 class="card-title">X-Plotions Jar Of Love</h4>
+                <p class="hälsa">Ögon - UA <br> <br> Planerad parning 2022</p>
                 <p class="card-text">Tik</p>
                 <!-- <a class="btn btn-primary" href="stamtavlaPepparSaltTik.html" role="button">Stamtavla</a> -->
-
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Stamtavla</button>
               </div>
+
+              <!-- Button trigger modal -->
+              <div class="card-footer bg-transparent border-0">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#XPlotionsJarOfLove">Stamtavla</button>
+              </div>              
             </div>
+
             <div class="card">
               <img src="images/dvargschnauzer-svart-silver.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">Youngsteps Tiptop Broderick</h3>
-                <p class="hälsa">Ögon - För ung</p>
+                <h4 class="card-title">Youngsteps Tiptop Broderick</h4>
+                <p class="hälsa">Ögon - UA <br> <br> Planerad parning 2022</p>
                 <p class="card-text">Hane</p>
-                <a class="btn btn-primary" href="stamtavlaSvartSilverHane.html" role="button">Stamtavla</a>  
+                <!-- <a class="btn btn-primary" href="stamtavlaSvartSilverHane.html" role="button">Stamtavla</a> -->
               </div>
+              <div class="card-footer bg-transparent border-0">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#YoungstepsTiptopBroderick">Stamtavla</button>
+              </div>            
             </div>
+
             <div class="card">
               <img src="images/dvargschnauzer-vit.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">Esslex Olivier A Thallysman</h3>
-                <p class="hälsa">Ögon - UA</p>
+                <h4 class="card-title">Esslex Olivier A Thallysman</h4>
+                <p class="hälsa">Ögon - UA <br> <br> Tillgänglig för lämpliga tikar</p>
                 <p class="card-text">Hane</p>
-                <a class="btn btn-primary" href="stamtavlaVitHane.html" role="button">Stamtavla</a>
-              </div>
+                <!-- <a class="btn btn-primary" href="stamtavlaVitHane.html" role="button">Stamtavla</a> -->
+              </div>  
+              <div class="card-footer bg-transparent border-0">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#EsslexOlivierAThallysman">Stamtavla</button>
+              </div>              
             </div>
+
             <div class="card">
               <img src="images/dvargschnauzer-svart.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">Winns Voice Born Star</h3>
-                <p class="hälsa">Ögon - UA</p>
+                <h4 class="card-title">Winns Voice Born Star</h4>
+                <p class="hälsa">Ögon - UA <br> <br> Planerad parning 2022</p>   
                 <p class="card-text">Tik</p>
-                <a class="btn btn-primary" href="stamtavlaSvartTik.html" role="button">Stamtavla</a>  
+                <!-- <a class="btn btn-primary" href="stamtavlaSvartTik.html" role="button">Stamtavla</a> -->
+              </div>  
+              <div class="card-footer bg-transparent border-0">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#WinnsVoiceBornStar">Stamtavla</button>
               </div>
             </div>
-            </div>
           </div>
+        </div>
     </main>
 
     <!-- Modal -->
     <!-- Stamtavla X-Plotions Jar Of Love -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="XPlotionsJarOfLove" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-scrollable">
         <div class="modal-content">
           <div class="modal-header">
@@ -96,8 +111,6 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <p class="text-center fs-1">Stamtavla X-Plotions Jar Of Love </p>  
-
             <div id="bodyContent_divStamtavla">
               <table id="bodyContent_tblStamtavla" class="stamtavla" cellspacing="0" cellpadding="3" border="2">                
                 <tr>
@@ -222,7 +235,6 @@
               </table>                    
             </div>
           </div>
-
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           </div>
@@ -230,7 +242,445 @@
       </div>
     </div>
 
-        <!--Footer-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!-- Modal -->
+    <!-- Stamtavla Youngsteps Tiptop Broderick -->
+    <div class="modal fade" id="YoungstepsTiptopBroderick" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Stamtavla Youngsteps Tiptop Broderick</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="bodyContent_divStamtavla">
+              <table id="bodyContent_tblStamtavla" class="stamtavla" cellspacing="0" cellpadding="3" border="2">                
+                <tr>
+                  <!--Hunden det handlar om-->
+                  <td rowspan="8" style="border: gainsboro 1px solid;">
+                    <span>SE13458/2017 SS</span>
+                    <span><br>Youngsteps Tiptop Broderick</span>
+                  </td>
+
+                  <!--Hundens Far-->
+                  <td rowspan="4" style="border: gainsboro 1px solid;">
+                      <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2914699" target="_blank">SE34879/2013</a> SS</span>
+                      <!-- <span id="titel"><br></span> -->
+                      <span><br>Art'Marant Hurricane</span>
+                  </td>
+                    
+                  <!--Hundens Farfar-->
+                  <td rowspan="2" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2914599" target="_blank">CMKUKM6683/09</a> SS</span>
+                    <span id="titel"><br>CZ CH</span>
+                    <span><br>Perry Silver Grand Calvera</span>
+                  </td>
+
+                  <!--Hundens Farfars Far-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2600566" target="_blank">RG/RSA0603392</a> SS</span>
+                    <span id="titel"><br>BR CH</span>
+                    <span><br>Ops Da Boa Barba</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <!--Hundens Farfars Mor-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2386911" target="_blank">CMKUKM538503/04</a> SS</span>
+                    <span id="titel"><br>CZ CH SK CH</span>
+                    <span><br>Alix Grand Calvera</span>
+                  </td> 
+                </tr>
+
+                <tr>
+                  <!--Hundens Farmor-->
+                  <td rowspan="2" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2914604" target="_blank">VDH06ZS42U00031</a> SS</span>
+                    <!-- <span id="titel"><br></span> -->
+                    <span><br>Caribbean Seashell Sandora</span>
+                  </td>
+
+                  <!--Hundens Farmors far-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2438998" target="_blank">CMKU5404/03</a> SS</span>
+                    <span id="titel"><br>RU CH UA CH</span>
+                    <span><br>Compliment Rezlark</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <!--Hundens Farmors Mor-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2914602" target="_blank">LV8029/03</a> SS</span>
+                    <span id="titel"><br>EE CH LT CH LV CH PL CH RU CH</span>
+                    <span><br>Boltres Miranda</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <!--Hundens Mor-->
+                  <td rowspan="4" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=3007051" target="_blank">SE45909/2014</a> SS</span>
+                    <!-- <span id="titel"><br></span> -->
+                    <span><br>Hilfies Isetta</span>
+                  </td>
+
+                  <!--Hundens Morfar-->
+                  <td rowspan="2" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2852208" target="_blank">SE45543/2012</a> SS</span>
+                    <!-- <span id="titel"><br></span> -->
+                    <span><br>High-Magicpointdesforbansdurocd'Her</span>
+                  </td>
+
+                  <!--Hundens Morfars Far-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2852153" target="_blank">LOF16546/2312</a> SS</span>
+                    <span id="titel"><br>C.I.B. FR CH</span>
+                    <span><br>Just You And Me Of Taita's Ushabti</span>
+                  </td>
+                </tr>
+                                    
+                <tr>                
+                  <!--Hundens Morfars Mor-->                            
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2852156" target="_blank">LOF16174/2919</a> SS</span>
+                    <!-- <span id="titel"><br></span> -->
+                    <span><br>Estephania Desforbansdurocd'Hervieu</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <!--Hundens Mormor-->
+                  <td rowspan="2" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2772185" target="_blank">SE44127/2011</a> SS</span>
+                    <span id="titel"><br>C.I.B. DK UCH FI UCH LT CH SE UCH SE VCH</span>
+                    <span><br>Busterin Elvira</span>
+                  </td>
+
+                  <!--Hundens Mormors Far-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2697769" target="_blank">FI37235/09</a> S</span>
+                    <span id="titel"><br>FI UCH SE UCH</span>
+                    <span><br>Globetrotter Grasant</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <!--Hundens Mormors Mor-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2772182" target="_blank">FI18525/09</a></span>
+                    <!-- <span id="titel"><br></span> -->
+                    <span><br>Busterin Birgitta</span>
+                  </td>
+                </tr>
+              </table>                    
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal -->
+    <!-- Stamtavla Esslex Olivier A Thallysman -->
+    <div class="modal fade" id="EsslexOlivierAThallysman" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Stamtavla Esslex Olivier A Thallysman</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="bodyContent_divStamtavla">
+              <table id="bodyContent_tblStamtavla" class="stamtavla" cellspacing="0" cellpadding="3" border="2">                
+                <tr>
+                  <!--Hunden det handlar om-->
+                  <td rowspan="8" style="border: gainsboro 1px solid;">
+                    <span>SE23018/2014</span>
+                    <span><br>Esslex Olivier A Thallysman</span>
+                  </td>
+
+                  <!--Hundens Far-->
+                  <td rowspan="4" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2913513" target="_blank">SE34063/2013</a> V</span>
+                    <span id="titel"><br>C.I.B. FI UCH NO UCH SE UCH</span>
+                    <span><br>Extra Art Genstat</span>
+                  </td>
+
+                  <!--Hundens Farfar-->
+                  <td rowspan="2" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2913300" target="_blank">RKF2322788</a> V</span>
+                    <span id="titel"><br>JWW-09 RU CH</span>
+                    <span><br>Gently Born Ontario</span>
+                  </td>
+
+                  <!--Hundens Farfars Far-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2664108" target="_blank">LOE1651115</a></span>
+                    <span id="titel"><br>INT UCH RU CH</span>
+                    <span><br>Made In Spain Free Float</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <!--Hundens Farfars Mor-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2849363" target="_blank">RKF1881812</a></span>
+                    <span id="titel"><br>BY CH HR CH LT&LV CH MX CH RU CH US CH</span>
+                    <span><br>Gently Born Diamond Dream</span>
+                  </td> 
+                </tr>
+
+                <tr>
+                  <!--Hundens Farmor-->
+                  <td rowspan="2" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2913305" target="_blank">BCU183/001271</a> V</span>
+                    <span id="titel"><br>BY CH C.I.B. EE CH LT CH RU CH</span>
+                    <span><br>Artwork Genstat</span>
+                  </td>
+
+                  <!--Hundens Farmors far-->
+                    <td rowspan="1" style="border: gainsboro 1px solid;">
+                      <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2454849" target="_blank">RKF1698352</a> V</span>
+                      <span id="titel"><br>BG CH BY CH INT UCH LT CH LV CH RU CH</span>
+                      <span><br>Dgently Born Baskin Robbins</span>
+                    </td>
+                </tr>
+
+                <tr>
+                  <!--Hundens Farmors Mor-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2913303" target="_blank">BCU183/000968</a> V</span>
+                    <span id="titel"><br>BY CH EE CH LT CH RU CH UA CH</span>
+                     <span><br>Dinamunde Right Power Genstat</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <!--Hundens Mor-->
+                  <td rowspan="4" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2764131" target="_blank">SE38341/2011</a> V</span>
+                    <span id="titel"><br>C.I.B. FI UCH NO UCH NO V-13 SE UCH</span>
+                    <span><br>Esslex Ice 'n Snow</span>
+                  </td>
+
+                  <!--Hundens Morfar-->
+                  <td rowspan="2" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2613351" target="_blank">SE23965/2010</a> SS</span>
+                    <span id="titel"><br>NO UCH NORD JV-10 SE UCH</span>
+                    <span><br>Lakej's Heartbreaker</span>
+                  </td>
+
+                  <!--Hundens Morfars Far-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2289112" target="_blank">S49903/2006</a> V</span>
+                    <span id="titel"><br>JWW-06 NORD V-07 SE UCH SE V-06-07 SE V-08 WW-08</span>
+                    <span><br>Wildwood Pepalfa's White New Man</span>
+                  </td>
+                </tr>
+                                    
+                <tr>                
+                  <!--Hundens Morfars Mor-->                            
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2133360" target="_blank">S56999/2004</a> SS</span>
+                    <!-- <span id="titel"><br></span> -->
+                    <span><br>Lakej's Sunny</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <!--Hundens Mormor-->
+                  <td rowspan="2" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2505676" target="_blank">S63540/2008</a> V</span>
+                    <span id="titel"><br>NO UCH SE UCH</span>
+                    <span><br>Esslex Eternity</span>
+                  </td>
+
+                  <!--Hundens Mormors Far-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2414422" target="_blank">METSCHN5950/03</a> V</span>
+                    <span id="titel"><br>RS CH</span>
+                    <span><br>Mikes Uti Zorro</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <!--Hundens Mormors Mor-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2227591" target="_blank">S64357/2005</a> V</span>
+                    <span id="titel"><br>SE UCH</span>
+                    <span><br>Mátraszépe Dandelion</span>
+                  </td>
+                </tr>                    
+              </table>                    
+            </div>
+          </div>
+          <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal -->
+    <!-- Stamtavla X-Plotions Jar Of Love -->
+    <div class="modal fade" id="WinnsVoiceBornStar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Stamtavla Winns Voice Born Star</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="bodyContent_divStamtavla">
+              <table id="bodyContent_tblStamtavla" class="stamtavla" cellspacing="0" cellpadding="3" border="2">                
+                <tr>
+                  <!--Hunden det handlar om-->
+                  <td rowspan="8" style="border: gainsboro 1px solid;">
+                    <span>SE56862/2017 S</span>
+                    <span id="titel"><br>HU CH</span>
+                    <span><br>Winns Voice Born Star</span>
+                  </td>
+
+                  <!--Hundens Far-->
+                  <td rowspan="4" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=3064482" target="_blank">SE31837/2015</a> S</span>
+                    <span id="titel"><br>DK UCH SE UCH SE V-16</span>
+                    <span><br>Dreamkiss Quality Control</span>
+                  </td>
+
+                  <!--Hundens Farfar-->
+                  <td rowspan="2" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=3064291" target="_blank">RKF3652294</a> S</span>
+                    <!-- <span id="titel"><br></span> -->
+                    <span><br>Dreamkiss A Priori</span>
+                  </td>
+
+                  <!--Hundens Farfars Far-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=3064289" target="_blank">FI59215/11</a> S</span>
+                    <span id="titel"><br>RU CH</span>
+                    <span><br>Stablemaster's Password</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <!--Hundens Farfars Mor-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2438171" target="_blank">RKF1675958</a> S</span>
+                    <span id="titel"><br>BY CH INT UCH LT CH PL CH RU CH UA CH</span>
+                    <span><br>Dreamkiss Encore</span>
+                  </td> 
+                </tr>
+
+                <tr>
+                  <!--Hundens Farmor-->
+                  <td rowspan="2" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=3064293" target="_blank">RKF2747870</a> S</span>
+                    <span id="titel"><br>BY CH EE CH INT UCH RU CH UA CH</span>
+                    <span><br>Dreamkiss Quality</span>
+                  </td>
+
+                  <!--Hundens Farmors far-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2688456" target="_blank">RKF2163150</a> S</span>
+                    <span id="titel"><br>BY CH INT UCH LT CH RU CH</span>
+                    <span><br>Dreamkiss Unikum</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <!--Hundens Farmors Mor-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2435066" target="_blank">RKF1918776</a> S</span>
+                    <span id="titel"><br>BY CH C.I.B. LT CH LV CH PL CH RU CH</span>
+                    <span><br>Dreamkiss Kindle</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <!--Hundens Mor-->
+                  <td rowspan="4" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2961658" target="_blank">SE15374/2014</a> S</span>
+                    <span id="titel"><br>AT CH C.I.B. CH UCH DE CH SE&DK UCH VDH CH</span>
+                    <span><br>Indira Von Den Black Diamond</span>
+                  </td>
+
+                  <!--Hundens Morfar-->
+                  <td rowspan="2" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2839874" target="_blank">ROI11/63374</a> S</span>
+                    <span id="titel"><br>RO CH</span>
+                    <span><br>Ground Zero-N Di Monte Gentile</span>
+                  </td>
+
+                  <!--Hundens Morfars Far-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2227130" target="_blank">LOI05/12230</a> S</span>
+                    <span id="titel"><br>BY CH HU CH LU CH MC CH RU CH</span>
+                    <span><br>Busterkeaton-N Di Monte Gentile</span>
+                  </td>
+                </tr>
+                                  
+                <tr>                
+                  <!--Hundens Morfars Mor-->                            
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2658298" target="_blank">LOI09/50114</a></span>
+                    <!-- <span id="titel"><br></span> -->
+                    <span><br>Vega-N Di Monte Gentile</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <!--Hundens Mormor-->
+                  <td rowspan="2" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2961540" target="_blank">VDH11ZS41U00085</a> S</span>
+                    <span id="titel"><br>DE&VDH CH</span>
+                    <span><br>Rajsha Hemes</span>
+                  </td>
+
+                  <!--Hundens Mormors Far-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2961539" target="_blank">PKR100381</a> S</span>
+                    <span id="titel"><br>PL CH RO CH RS CH SK CH</span>
+                    <span><br>Shotgun-N Di Monte Gentile</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <!--Hundens Mormors Mor-->
+                  <td rowspan="1" style="border: gainsboro 1px solid;">
+                    <span><a href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=2961538" target="_blank">PKR92148</a> S</span>
+                    <span id="titel"><br>PL CH</span>
+                    <span><br>Happy Heaven Hermes</span>
+                  </td>
+                </tr>
+              </table>                    
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="social">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+          </div>
+          <p>Kalles Kennel &copy; 2021</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>

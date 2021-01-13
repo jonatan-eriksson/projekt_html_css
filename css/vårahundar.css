@@ -15,6 +15,10 @@ footer {
 }
 
 /* Navbar */
+.navbar {
+  width: 100vw;
+}
+
 .navbar-toggler {
   border: none;
   }
@@ -92,9 +96,7 @@ footer {
   font-family: arial, verdana, helvetica, sans-serif;
 }
 
-#titel{
-  font-size: 6pt;
-}
+
 
 .hälsa{
   font-size: 8pt;
@@ -105,7 +107,9 @@ footer {
   font-family: arial, verdana, helvetica, sans-serif;
 }
 
-.card img{
-  height: 75%;
+.salu{
+  font-size: 8pt;
 }
-
+.regNr{
+  font-size: 8pt;
+}

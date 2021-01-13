@@ -6,14 +6,14 @@ a {
   text-decoration: none;
 }
 
-/* Utility */
+/* Utilities */
 .grid {
   display: grid;
   grid-gap: 1rem;
 }
 
 .grid-col-4 {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 @media screen and (max-width: 992px) {
@@ -84,79 +84,88 @@ a {
 }
 
 /* index Main */
-.hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+#hero {
+  display: grid;
+  grid-template-areas: "hero";
+  align-items: center;
 
   height: calc(100vh - 60px);
-  padding: 0 0 2rem 0;
   margin-top: 60px;
+  padding: 0;
+
+  background-color: rgba(0, 0, 0, 0.3);
   text-align: center;
 }
 
-.hero-image {
-  flex: 1;
-  overflow: hidden;
-  background-image: url("/images/placeholder-1.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
+#hero > * {
+  grid-area: hero;
 }
 
-.products .card-img {
+.hero-content {
+  z-index: 1;
+}
+
+.hero-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  transition: 180ms width ease-in;
+}
+
+#about {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+#products .card-img {
   filter: contrast(70%);
   transition: filter 0.4s cubic-bezier(0.43, 0.41, 0.22, 0.91);
 }
 
-.products .card-img:hover {
+#products .card-img:hover {
   filter: contrast(100%);
 }
 
-.newsletter {
-  max-width: 600px;
+#newsletter {
+  max-width: 680px;
   margin: 0 auto;
   text-align: center;
 }
 
-.newsletter .input-group {
+#newsletter .input-group {
   flex-direction: column;
   align-items: center;
   row-gap: 1rem;
 }
 
-.newsletter .input-group input[type="email"] {
+#newsletter .input-group input[type="email"] {
   width: 100%;
 }
 
 @media screen and (min-width: 576px) {
-  .newsletter .input-group {
+  #newsletter .input-group {
     flex-direction: row;
   }
-  .newsletter .input-group input[type="email"] {
+  #newsletter .input-group input[type="email"] {
     width: auto;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .hero {
-    flex-direction: row;
-    align-items: center;
-    padding: 0;
-  }
-  .hero-image {
-    order: 1;
-    min-height: 100%;
-  }
   .hero-content {
+    max-width: 50%;
+    margin-left: 5%;
     text-align: start;
   }
-}
 
-@media screen and (min-width: 992px) {
-}
+  .hero-content p {
+    margin: 1rem 0.5rem;
+  }
 
-@media screen and (min-width: 1200px) {
+  .hero-content a {
+    margin: 0.5rem;
+  }
 }
 
 

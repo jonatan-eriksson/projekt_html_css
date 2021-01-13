@@ -105,3 +105,7 @@ footer {
   font-family: arial, verdana, helvetica, sans-serif;
 }
 
+.card img{
+  height: 75%;
+}
+

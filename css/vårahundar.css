@@ -111,11 +111,9 @@ footer {
 .regNr{
   font-size: 8pt;
 }
-.puppyimg img{
-  border: 1px solid rgba(0,0,0,.125);
-}
-.puppyimg { 
-  height: 95%;
+
+.puppyimg img {
   width: 100%;
+  height: 90%;
   object-fit: cover;
 }

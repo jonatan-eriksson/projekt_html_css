@@ -1,10 +1,7 @@
 body{
     position: relative;
+    margin-top: 90px;
 }
-
-/* a:visited{
-    color: rgba(168, 35, 35, 0.747);
-} */
 
 /* Navbar */
 .navbar-toggler {
@@ -62,7 +59,7 @@ body{
   }
 
 .card{
-    width: 400px;   
+    width: 400px;
 }
  
 #bodyContent_divStamtavla{
@@ -94,3 +91,4 @@ color: rgba(168, 35, 35, 0.747);
 .hälsa{
     font-size: 8pt;
 }
+

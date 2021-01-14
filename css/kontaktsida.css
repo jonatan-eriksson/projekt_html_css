@@ -27,12 +27,12 @@
 .contact .content h2 {
     font-size: 36px;
     font-weight: 500;
-    color: white;
+    color: black;
 }
 
 .contact .content p {
 font-weight: 600;
-color: white
+color: black;
 }
 
 .container {
@@ -173,6 +173,7 @@ font-size: 22px;
 
 .footer {
     position: fixed;
+    height: 100px;
     bottom: 0px;
     width: 100%;
     background: white;
@@ -181,8 +182,7 @@ font-size: 22px;
 
 .main-content {
     display: flex;
-    background: lightgrey;
-
+    background: lightgray;
 
 }
 

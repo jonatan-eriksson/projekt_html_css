@@ -1,0 +1,57 @@
+.navbar {
+    width: 100vw;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler:active,
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  
+  .navbar-nav .nav-link {
+    font-weight: 600;
+    margin: 0 0.7rem;
+  }
+  
+  .navbar-toggler .icon-bar {
+    display: block;
+    background-color: #6d6d6d;
+    height: 2px;
+    width: 22px;
+    margin: 4px 0;
+    border-radius: 5px;
+    opacity: 1;
+    transition: all 0.3s ease-out;
+    transform-origin: center left;
+  }
+  
+  /* Animate X */
+  .navbar-toggler:not(.collapsed) .icon-bar:nth-child(1) {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  
+  .navbar-toggler:not(.collapsed) .icon-bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  
+  /* Animate Hamburger */
+  .navbar-toggler .icon-bar:nth-child(1) {
+    transform: rotate(0);
+  }
+  /* middle line goes back to regular color and opacity */
+  .navbar-toggler .icon-bar:nth-child(2) {
+    opacity: 1;
+  }
+  /* bottom line goes back to initial position and rotates back to 0 degrees */
+  .navbar-toggler .icon-bar:nth-child(3) {
+    transform: rotate(0);
+  }

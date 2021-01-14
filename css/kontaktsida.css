@@ -1,12 +1,16 @@
-@import url('https://fonts.googleeapis.com/ css2?family=Poppins:wght@200;300;400;500;600;700;800;900;&display=swap');
-*
+main
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', 'Times New Roman', Times, serif;
+    font-family: 'Sans Serif', 'Times New Roman', Times, serif;
 
 }
+
+body{
+    position: relative;
+    margin-top: 90px;
+  }
 
 .contact {
     position: relative;
@@ -152,7 +156,7 @@ font-size: 22px;
     padding: 10px;
     font-size: 18px;
 }
-@media (max-width: 1201px) {
+@media (max-width: 992px) {
     .contact {
         padding: 50px;
 
@@ -176,7 +180,6 @@ font-size: 22px;
     height: 100px;
     bottom: 0px;
     width: 100%;
-    background: white;
 
 }
 
@@ -207,4 +210,3 @@ font-size: 22px;
     margin: auto;
 
 }
-
